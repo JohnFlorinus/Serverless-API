@@ -19,11 +19,14 @@ The biggest negative with Azure Functions that is usually brought up are cold st
 ## ✅ Features
 
 - Basic Account Endpoints (Register,Login,Logout)
-- IP Rate-limiting
 - Block fraudulent sign-ups
   * Verification email sent on signup
   * Dynamically updated blocklist of disposable email domains
   * Logged IPs of previous free-trial accounts
+- IP Rate-limiting
+- Good Security Practices
+  * JWT Auth w/ http-only cookies
+  * BCrypt password hashing w/ per-user salts
 
 ---
 
@@ -32,10 +35,3 @@ The biggest negative with Azure Functions that is usually brought up are cold st
 - **.NET 9 Isolated Worker Model**
 - **Entity Framework Core**
 - **SQL Server**
-
----
-
-## 🔒 Security
-
-- JWT w/ http-only cookies
-- BCrypt password hashing w/ per-user salts
