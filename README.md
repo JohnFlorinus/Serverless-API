@@ -16,7 +16,7 @@ Beyond that each million requests costs 0.2$ - so 50 million API requests per mo
 
 ## ✅ Features
 
-- Account Management - Registration, Login, Logout
+- Basic Account Endpoints (Register,Login,Logout)
 - IP Rate-limiting
 - Block fraudulent sign-ups
   * Verification email sent on signup
