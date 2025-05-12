@@ -1,6 +1,6 @@
 # Serverless API
 
-This is a serverless API for Azure Functions with features to make it secure & scalable for production-use.
+This is a serverless API for Azure Functions with features to make it secure & scalable for production-use. Connected to an MSSQL Database with Entity Framework & built with a repository pattern for easy maintainability.
 <br><br>
 I built this as a boilerplate for my future personal projects so there are a few design liberties (no interfaces because no unit testing or >2 implementations). Also, everything is referring to <a href="https://batproxy.com">Batproxy</a>, because that is the name of the current project I am working on.
 
