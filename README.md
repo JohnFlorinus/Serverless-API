@@ -7,10 +7,9 @@ I built this as a boilerplate for my future personal projects so there are a few
 ---
 
 ## 💰 Why use Serverless?
-Azure Functions offers scale-to-zero billing and better PAYG pricing which means minimal cloud expenses both for small and high workloads compared to traditional API deployment such as App Service, Container Apps and VMs. With great built-in scaling it is also great for businesses that value their money and scalability.
+Azure Functions offers scale-to-zero billing and top-notch PAYG pricing which means minimal cloud expenses both for small and high workloads compared to traditional API deployment such as App Service, Container Apps and VMs. With great built-in scaling it is also great for businesses that value their money and scalability.
 <br><br>
 With the free quota on the consumption plan, you can run your api 24/7 for free as long as the monthly api requests stay below 1 million.
-<br>
 Beyond that each million requests costs 0.2$ - so 50 million API requests per month would cost you 10$. There is of course the Duration(GB-s) cost but if you don't do heavy calculations this is also an incredibly small cost.
 
 ---
