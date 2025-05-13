@@ -1,6 +1,6 @@
 # Serverless API
 
-This is a serverless API I made for Azure Functions with features to make it secure & scalable for production-use. Connected to an MSSQL Database with Entity Framework & built with a repository pattern for easy maintainability. It uses the modern .net 9 isolated worker model as opposed to the in-process model which will be deprecated by Azure in 2026.
+This is a serverless API I made for Azure Functions with features to make it secure & scalable for production-use. Connected to an MSSQL Database with Entity Framework & built with a repository pattern for easy maintainability. It uses the modern .net 9 isolated worker model as opposed to the in-process model which will be deprecated in 2026.
 
 ---
 
