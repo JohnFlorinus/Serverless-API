@@ -5,12 +5,12 @@ This is a serverless API I made for Azure Functions with features to make it sec
 ---
 
 ## 💰 Why use Serverless?
-Azure Functions offers scale-to-zero billing and top-notch PAYG pricing which means minimal cloud expenses both for small and high workloads compared to traditional API deployment such as App Service, Container Apps and VMs. It is great for businesses that value both their money and scalability.
+Azure Functions offers scale-to-zero billing and top-notch PAYG pricing which means minimal cloud expenses both for small and high workloads. Azure Functions is often used in microservices and internal app communication rather than as a customer-facing API, but it remains the most cost-effective way of launching a public API with high scalability compared to the traditional services such as App Service & Container Apps.
 <br><br>
-With the free quota on the consumption plan, you can run your api 24/7 for free as long as the monthly api requests stay below 1 million.
-Beyond that each million requests costs 0.2$ - so 50 million API requests per month would cost you 10$ plus the Duration(GB-s) cost, but if you don't do heavy calculations this is also a very small cost.
+With the free quota on the consumption plan, the api can run 24/7 for free with monthly api requests below 1 million.
+Beyond that, each 1 million requests costs 0.2$ - so 50 million API requests per month would cost you 10$ plus the Duration(GB-s) cost, but if you don't do heavy calculations this is also a very small cost.
 <br><br>
-The biggest negative with Azure Functions that is usually brought up are cold starts, which is a serverless consequence of having to boot up after being idle. This can be mitigated by paying for an always-on instance, but can also be avoided for completely free by triggering a warm-up function once every 5 minutes to counteract the server going idle. Doing this 24/7 would be 8,640 requests/month which is inconsequential with the free quota & PAYG pricing.
+The biggest negative with Azure Functions that is usually brought up are cold starts, which is a serverless consequence of having to boot up after being idle. This can be mitigated by paying for an always-on instance, but can also be avoided for completely free by triggering a warm-up function once every 5 minutes to counteract the server going idle. Doing this 24/7 would be 8,640 requests/month (which is inconsequential for your pricing).
 
 ---
 
