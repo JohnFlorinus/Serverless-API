@@ -5,7 +5,7 @@ This is a serverless API I made for Azure Functions with features to make it sec
 ---
 
 ## 💰 Why use Serverless?
-Azure Functions offers scale-to-zero billing and top-notch PAYG pricing which means minimal cloud expenses both for small and high workloads. Azure Functions is often used in microservices and internal app communication rather than as a customer-facing API yet it still remains the most cost-effective way of launching a public API with high scalability compared to traditional API services such as App Service. There is increased complexity during the coding process compared to ASP.NET Web APIs as it is less well-documented and needs a bit more work on registering middleware but the money aspect makes up for this.
+Azure Functions offers scale-to-zero billing and top-notch PAYG pricing which means minimal cloud expenses both for small and high workloads. Azure Functions is often used in microservices and internal app communication rather than as a customer-facing API yet it still remains the most cost-effective way of launching a public API with high scalability compared to traditional API services such as App Service.
 <br><br>
 With the free quota on the consumption plan, the api can run 24/7 for free with monthly api requests below 1 million.
 Beyond that, each 1 million requests costs 0.2$ - so 50 million API requests per month would cost you 10$ plus the Duration(GB-s) cost, but if you don't do heavy calculations this is also a very small cost.
